@@ -34,8 +34,7 @@ page {
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
 	        flex-direction: column;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	background-color: #efeff4;
 	min-height: 100%;
 	height: auto;

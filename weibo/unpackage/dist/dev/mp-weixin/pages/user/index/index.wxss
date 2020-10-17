@@ -58,8 +58,7 @@
 }
 .text {
 	border: 1rpx solid #007AFF;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	text-align: center;
 	color: #777;
 	font-size: 26rpx;
