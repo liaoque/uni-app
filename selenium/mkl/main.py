@@ -6,14 +6,16 @@ import  time
 import urllib.request
 import json
 import index.base as IndexController
+import router.index as router
 
 driver = webdriver.Chrome()
 # driver.execute_script('location.href')
-indexController = IndexController.Index(driver)
-indexController.initApi()
-indexController.uiCheckout()
+# indexController = IndexController.Index(driver)
+# indexController.initApi()
+# indexController.uiCheckout()
 
-
+router = router.Index(driver)
+router.route('http://wshop.wm18.com')
 
 
 
